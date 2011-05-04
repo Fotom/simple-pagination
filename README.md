@@ -10,7 +10,7 @@ Installation
 Add pagination js file into your folder with javascripts.
 Include the simple_paginator.js file in your html page:
 
-<script type="text/javascript" src="/simple_paginator.js"></script>
+	<script type="text/javascript" src="/simple_paginator.js"></script>
 
 Example usage
 --------------------------------------
