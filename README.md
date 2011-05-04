@@ -2,6 +2,11 @@ Simple pagination with JavaScript
 ==================================================
 This is lightweight pagination on JavaScript. 
 You can use it that would not display the entire list of pages on your site.
+Aall the information you require is:
+
+elements_count || pages_count
+&&
+current_page   || auto_detect_current_page
 
 
 Installation
@@ -35,21 +40,32 @@ The result obtained:
 
 Or if you want to display paginator in several places, then:
 
-	  <script type="text/javascript"> 
-	  //<![CDATA[
-	  
-	    // получение html кода для листалки
-	    var paginator_html = display_paginator({
-	      elements_count: 100,
-	      auto_detect_current_page: 1,
-	      display_paginator: 0,
-	      page_url: '/show?type=5&page=%page%'});
-	  
-	    // отрисовка листалкиs
-	    document.write(paginator_html); // or onload in different places
-	  
-	  //]]>
-	  </script> 
+	<script type="text/javascript"> 
+	//<![CDATA[
+	
+	  // получение html кода для листалки
+	  var paginator_html = display_paginator({
+	    elements_count: 100,
+	    auto_detect_current_page: 1,
+	    display_paginator: 0,
+	    page_url: '/show?type=5&page=%page%'});
+	
+	  // отрисовка листалкиs
+	  document.write(paginator_html); // or onload in different places
+	
+	//]]>
+	</script> 
 
 **1** 2 3 4 5 6 7 8 ... 10 Next »
+
+Examples
+--------------------------------------
+
+See more examples in example.js file
+
+Authors
+--------------------------------------
+
+Personal blog author: [Malykh Oleg](http://malyh.com/) - blog in russian
+
 
