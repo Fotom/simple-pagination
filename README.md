@@ -2,10 +2,12 @@ Simple pagination with JavaScript
 ==================================================
 This is lightweight pagination on JavaScript. 
 You can use it that would not display the entire list of pages on your site.
-Aall the information you require is:
+All the information you require is:
 
 elements_count || pages_count
+
 &&
+
 current_page   || auto_detect_current_page
 
 
