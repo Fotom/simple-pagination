@@ -45,14 +45,14 @@ Or if you want to display paginator in several places, then:
 	<script type="text/javascript"> 
 	//<![CDATA[
 	
-	  // получение html кода для листалки
+	  // get html code of pagination
 	  var paginator_html = display_paginator({
 	    elements_count: 100,
 	    auto_detect_current_page: 1,
 	    display_paginator: 0,
 	    page_url: '/show?type=5&page=%page%'});
 	
-	  // отрисовка листалкиs
+	  // write code into page
 	  document.write(paginator_html); // or onload in different places
 	
 	//]]>
