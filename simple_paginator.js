@@ -51,7 +51,7 @@ function display_paginator(h) {
     var regex   = new RegExp(regexS);
     var results = regex.exec(window.location.href);
     if (results == null) {
-      h.current_page = start_page;
+      h.current_page = h.start_page;
     } else {
       h.current_page = parseInt(results[1]);
     }
