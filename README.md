@@ -17,17 +17,17 @@ Example usage
 
 Insert this block of code into your page
 
-<script type="text/javascript"> 
-//<![CDATA[
-
-  // display paginator in html code
-  display_paginator({
-    pages_count: 100,
-    current_page: 5,
-    page_url: '/topics.html?fid=5&pg=%page%'+date_params});
-
-//]]>
-</script>
+	<script type="text/javascript"> 
+	//<![CDATA[
+	
+	  // display paginator in html code
+	  display_paginator({
+	    pages_count: 100,
+	    current_page: 5,
+	    page_url: '/topics.html?fid=5&pg=%page%'+date_params});
+	
+	//]]>
+	</script>
 
 The result obtained:
 
