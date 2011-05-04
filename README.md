@@ -24,11 +24,32 @@ Insert this block of code into your page
 	  display_paginator({
 	    pages_count: 100,
 	    current_page: 5,
-	    page_url: '/topics.html?fid=5&pg=%page%'+date_params});
+	    page_url: '/show?pg=%page%' + addon_params});
 	
 	//]]>
 	</script>
 
 The result obtained:
 
-« Previous 1 2 3 4 5 6 7 8 9 10 11 12 ... 100 Next »
+« Previous 1 2 3 4 **5** 6 7 8 9 10 11 12 ... 100 Next »
+
+Or if you want to display paginator in several places, then:
+
+	  <script type="text/javascript"> 
+	  //<![CDATA[
+	  
+	    // получение html кода для листалки
+	    var paginator_html = display_paginator({
+	      elements_count: 100,
+	      auto_detect_current_page: 1,
+	      display_paginator: 0,
+	      page_url: '/show?type=5&page=%page%'});
+	  
+	    // отрисовка листалкиs
+	    document.write(paginator_html); // or onload in different places
+	  
+	  //]]>
+	  </script> 
+
+**1** 2 3 4 5 6 7 8 ... 10 Next »
+
