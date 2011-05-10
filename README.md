@@ -64,6 +64,7 @@ Examples
 --------------------------------------
 
 See more examples in example.js file
+Online example: [pagination](http://malyh.com/examples/pagination)
 
 Authors
 --------------------------------------
