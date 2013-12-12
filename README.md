@@ -65,11 +65,11 @@ Examples
 
 See more examples in example.js file
 
-Online example: [pagination](http://malyh.com/examples/pagination)
+Online example: [pagination](http://es0.ru/pagination/index.html)
 
 Authors
 --------------------------------------
 
-Personal blog author: [Malykh Oleg](http://malyh.com/) - blog in russian
+Personal blog author: [Malykh Oleg](http://es0.ru/) - blog in russian
 
 
